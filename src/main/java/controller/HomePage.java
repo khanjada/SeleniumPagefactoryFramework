@@ -32,16 +32,42 @@ public class HomePage extends ScriptBase {
 //
 //
 //}
-public  void TopSearch(String input,WebDriver driver,String quantity){
+    public  void TopSearch(String input,WebDriver driver,String quantity){
 
         searchQueryTop.sendKeys(input);
         searchButton.click();
         driver.findElement(By.xpath("//*[@id='center_column']/h1/span[contains(text(),'"+quantity+" results have been found.')]")).isDisplayed();
-
-
+        searchQueryTop.clear();
 }
 
+    public  void TopSearchone(String input,WebDriver driver,String quantity){
 
+        searchQueryTop.sendKeys(input);
+        searchButton.click();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" results have been found.')]")).isDisplayed();
+        searchQueryTop.clear();
+    }
+
+    public  void TopSearchTwo(String input,WebDriver driver,String quantity){
+
+        searchQueryTop.sendKeys(input);
+        searchButton.click();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" result has been found.')]")).isDisplayed();
+        searchQueryTop.clear();
+    }
+    public  void TopSearchThree(String input,WebDriver driver,String quantity){
+
+        searchQueryTop.sendKeys(input);
+        searchButton.click();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" result has been found.')]")).isDisplayed();
+        searchQueryTop.clear();
+    }
+    public  void Category(WebDriver driver,String categorySelect){
+
+
+        driver.findElement(By.xpath("//*[@id='block_top_menu']//li[1]/a[@title='"+categorySelect+"']")).isDisplayed();
+
+    }
 
 }
 
