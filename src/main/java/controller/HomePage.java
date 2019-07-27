@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import java.util.concurrent.TimeUnit;
+
 public class HomePage extends ScriptBase {
 
 //    @FindBy(linkText = "Call us now: ")
@@ -66,6 +68,27 @@ public class HomePage extends ScriptBase {
 
 
         driver.findElement(By.xpath("//*[@id='block_top_menu']//li[1]/a[@title='"+categorySelect+"']")).isDisplayed();
+
+    }
+
+    public  void PopularBestseller(WebDriver driver,String category){
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.findElement(By.xpath("//*[@id='home-page-tabs']/li/a[@class='"+category+"']")).isDisplayed();
+
+    }
+
+    public  void InformationCascade(WebDriver driver,String types){
+
+
+        driver.findElement(By.xpath("//*[@id='block_various_links_footer']/ul/li/a[@title='"+types+"']")).isDisplayed();
+
+    }
+
+    public  void MyAccountCascade(WebDriver driver,String mytypes){
+
+
+        driver.findElement(By.xpath("//*[@id='footer']/div/section[5]/div/ul/li/a[@title='"+mytypes+"']")).isDisplayed();
 
     }
 
