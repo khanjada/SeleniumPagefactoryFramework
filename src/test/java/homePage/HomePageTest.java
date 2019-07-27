@@ -24,10 +24,49 @@ public class HomePageTest extends ScriptBase {
     @Test
     public void VerifyTopSearch() {
         homePage = new HomePage(driver);
-        homePage.TopSearch("sleeve",driver,"4");
+        homePage.TopSearch("printed dress",driver,"5");
 
 
     }
+
+    @Test
+    public void VerifyShoeSearch() {
+        homePage = new HomePage(driver);
+        homePage.TopSearchone("Shoe",driver,"7");
+
+
+    }
+
+    @Test
+    public void VerifyBlouseSearch() {
+        homePage = new HomePage(driver);
+        homePage.TopSearchTwo("Blouse",driver,"1");
+
+
+    }
+    @Test
+    public void VerifySkirtSearch() {
+        homePage = new HomePage(driver);
+        homePage.TopSearchThree("skirt",driver,"1");
+
+
+    }
+    @Test
+    public void VerifyCategoryWomen() {
+        homePage = new HomePage(driver);
+        homePage.Category(driver,"women");
+
+
+    }
+    @Test
+    public void VerifyCategoryTshirt() {
+        homePage = new HomePage(driver);
+        homePage.Category(driver,"T-shirts");
+
+
+    }
+
+
 
     @AfterTest
     public void closebrowser(){
