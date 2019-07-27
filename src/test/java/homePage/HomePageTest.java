@@ -66,6 +66,118 @@ public class HomePageTest extends ScriptBase {
 
     }
 
+    @Test
+    public void VerifyPopular() {
+        homePage = new HomePage(driver);
+        homePage.PopularBestseller(driver,"homefeatured");
+
+
+    }
+
+    @Test
+    public void VerifyBestseller() {
+        homePage = new HomePage(driver);
+        homePage.PopularBestseller(driver,"blockbestsellers");
+
+
+    }
+
+    @Test
+    public void VerifyInformation() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Specials");
+
+
+    }
+
+    @Test
+    public void VerifyInformationTwo() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"New products");
+
+
+    }
+
+    @Test
+    public void VerifyInformationThree() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Best sellers");
+
+
+    }
+
+    @Test
+    public void VerifyInformationFour() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Contact us");
+
+
+    }
+
+    @Test
+    public void VerifyInformationFive() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Our stores");
+
+
+    }
+
+    @Test
+    public void VerifyInformationSix() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Terms and conditions of use");
+
+
+    }
+
+    @Test
+    public void VerifyInformationSeven() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"About us");
+
+
+    }
+
+    @Test
+    public void VerifyInformationEight() {
+        homePage = new HomePage(driver);
+        homePage.InformationCascade(driver,"Sitemap");
+
+
+    }
+
+    @Test
+    public void VerifyMyAccountCascade() {
+        homePage = new HomePage(driver);
+        homePage.MyAccountCascade(driver,"My orders");
+
+
+    }
+
+    @Test
+    public void VerifyMyAccountCascadeTwo() {
+        homePage = new HomePage(driver);
+        homePage.MyAccountCascade(driver,"My credit slips");
+
+
+    }
+
+    @Test
+    public void VerifyMyAccountCascadeThree() {
+        homePage = new HomePage(driver);
+        homePage.MyAccountCascade(driver,"My addresses");
+
+
+    }
+
+    @Test
+    public void VerifyMyAccountCascadeFour() {
+        homePage = new HomePage(driver);
+        homePage.MyAccountCascade(driver,"Manage my personal information");
+
+
+    }
+
 
 
     @AfterTest
