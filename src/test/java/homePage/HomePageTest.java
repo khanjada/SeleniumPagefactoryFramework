@@ -15,11 +15,7 @@ public class HomePageTest extends ScriptBase {
         init();
 
     }
-//    @Test
-//    public void VerifyDisp() {
-//        homePage = new HomePage(driver);
-//        homePage.DispInfo();
-//    }
+
 
     @Test
     public void VerifyTopSearch() {
@@ -54,7 +50,14 @@ public class HomePageTest extends ScriptBase {
     @Test
     public void VerifyCategoryWomen() {
         homePage = new HomePage(driver);
-        homePage.Category(driver,"women");
+        homePage.Category(driver,"Women");
+
+
+    }
+    @Test
+    public void VerifyCategoryDresses() {
+        homePage = new HomePage(driver);
+        homePage.Category(driver,"Dresses");
 
 
     }
@@ -67,9 +70,9 @@ public class HomePageTest extends ScriptBase {
     }
 
     @Test
-    public void VerifyPopular() {
+    public void VerifyPopular1() {
         homePage = new HomePage(driver);
-        homePage.PopularBestseller(driver,"homefeatured");
+        homePage.PopularBestseller(driver,"Popular");
 
 
     }
@@ -77,10 +80,11 @@ public class HomePageTest extends ScriptBase {
     @Test
     public void VerifyBestseller() {
         homePage = new HomePage(driver);
-        homePage.PopularBestseller(driver,"blockbestsellers");
+        homePage.PopularBestseller(driver,"Best Sellers");
 
 
     }
+
 
     @Test
     public void VerifyInformation() {
