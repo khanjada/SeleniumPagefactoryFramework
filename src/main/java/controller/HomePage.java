@@ -20,6 +20,13 @@ public class HomePage extends ScriptBase {
     WebElement searchButton;
     @FindBy(xpath = "//*[@id='center_column']/h1/span[1]")
     WebElement oneResultfound;
+    @FindBy(css = "#header_logo > a > img")
+    WebElement homepageNavigation;
+
+    @FindBy(css = "#contact-link > a")
+    WebElement contuctUs;
+    @FindBy(css="#center_column > h1")WebElement contactUsPageAssert;
+
 
 
 
@@ -28,12 +35,7 @@ public class HomePage extends ScriptBase {
     }
 
 
-//public void DispInfo(){
-//        callusNow.isDisplayed();
-//
-//
-//
-//}
+
     public  void TopSearch(String input,WebDriver driver,String quantity){
 
         searchQueryTop.sendKeys(input);
@@ -72,8 +74,7 @@ public class HomePage extends ScriptBase {
     }
 
     public  void PopularBestseller(WebDriver driver,String category){
-
-
+        homepageNavigation.click();
         driver.findElement(By.xpath("//*[@id='home-page-tabs']/li/a[contains(text(),'"+category+"')]")).isDisplayed();
 
     }
@@ -90,6 +91,12 @@ public class HomePage extends ScriptBase {
 
         driver.findElement(By.xpath("//*[@id='footer']/div/section[5]/div/ul/li/a[@title='"+mytypes+"']")).isDisplayed();
 
+    }
+    public void NewContactUs(){
+
+        contuctUs.click();
+
+        Assert.assertEquals(contactUsPageAssert,contactUsPageAssert);
     }
 
 }
