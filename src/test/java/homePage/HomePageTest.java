@@ -182,6 +182,13 @@ public class HomePageTest extends ScriptBase {
 
     }
 
+    @Test
+    public void verifyContactUs(){
+     homePage = new HomePage(driver);
+     homePage.NewContactUs();
+
+    }
+
 
 
     @AfterTest
