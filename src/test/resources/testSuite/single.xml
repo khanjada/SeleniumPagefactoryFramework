@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/hurayra/Documents/Workspace/SeleniumPagefactoryFramework">
         <classes>
-            <class name="homePage.HomePageTest">
+            <class name="contactUsPage.ContactUsTest">
                 <methods>
-                    <include name="verifyContactUs"/>
+                    <include name="VerifyMyCart"/>
                 </methods>
             </class>
         </classes>
