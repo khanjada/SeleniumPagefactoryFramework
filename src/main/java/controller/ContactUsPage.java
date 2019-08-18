@@ -1,10 +1,12 @@
 package controller;
 
 import base.ScriptBase;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class ContactUsPage extends ScriptBase {
@@ -34,8 +36,29 @@ public class ContactUsPage extends ScriptBase {
     WebElement messageBox;
     @FindBy(css = "#submitMessage > span")
     WebElement sendButton;
+
+    @FindBy(xpath = "//p[@class='alert alert-success']")
+    WebElement messageSent;
+
     @FindBy(css = "#center_column > div > ol > li")
     WebElement subjectAssert;
+
+
+    @FindBy(xpath = "//a[@title='View my shopping cart']")
+    WebElement myCart;
+
+    @FindBy(xpath = "//span[@class='navigation_page'] ")
+    WebElement ShoppingcartLogoText;
+
+    @FindBy(xpath = "//*[@id='cart_title']")
+    WebElement ShoppingCartSummary;
+
+    @FindBy(xpath = "//*[@class='alert alert-warning']")
+    WebElement ShoppingCartEmpty;
+
+
+    @FindBy(id = "id_contact")
+    WebElement subjectHeadingSelect;
 
 
     public ContactUsPage(WebDriver driver){
@@ -100,13 +123,45 @@ public class ContactUsPage extends ScriptBase {
 
     }
 
+public void InvalidContactInfo(String Email,String reference,String message,String valuee){
+    contucts.click();
+    Assert.assertEquals(contactUspageAssert,contactUspageAssert);
+    dropdown(subjectHeadingSelect,valuee);
+    email.sendKeys(Email);
+    orderTextBox.sendKeys(reference);
+    messageBox.sendKeys(message);
+    sendButton.click();
+    Assert.assertEquals(messageSent,messageSent);
 
 
 
+}
 
 
+   public void dropdown(WebElement element,String value){
+        element = subjectHeadingSelect;
+       Select select = new Select(element);
+       select.selectByVisibleText(value);
+
+}
+
+        public void VieMyCart(String input,WebDriver driver){
+
+        myCart.click();
+        ShoppingcartLogoText.isDisplayed();
+        Assert.assertEquals(ShoppingCartSummary,ShoppingCartSummary);
+        cartSummeryBar(input,driver);
+        Assert.assertEquals(ShoppingCartEmpty,ShoppingCartEmpty);
 
 
+    }
+
+public void cartSummeryBar(String input,WebDriver driver){
+    myCart.click();
+
+    driver.findElement(By.xpath("//span[contains(text(),'"+input+"')]")).isDisplayed();
+
+}
 
 
 

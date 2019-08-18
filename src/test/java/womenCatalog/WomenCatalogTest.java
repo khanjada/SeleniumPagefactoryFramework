@@ -65,13 +65,21 @@ WomenCatalog womenCatalog;
     }
 
 
+    @Test
+    public void verifyWomenFilerProduct(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Tops","T-shirts",driver);
+
+    }
+
+
 
 
 
     @AfterTest
     public void closebrowser(){
-        driver.close();
-        driver.quit();
+//        driver.close();
+//        driver.quit();
     }
 
 
