@@ -77,11 +77,76 @@ public class ContactUsTest extends ScriptBase {
 
 
     }
+    @Test
+    public void VerifyInvalidContactInfo() {
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.InvalidContactInfo("khanjada@hotmail.com", "test","hi","Customer service");
 
-    @AfterTest
-    public void closebrowser(){
-//        driver.close();
-//        driver.quit();
+
     }
+
+
+    @Test
+    public void VerifyMyCart(){
+
+        contactUsPage = new ContactUsPage(driver);
+
+
+
+    }
+    @Test
+    public void VerifySummary(){
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Summary",driver);
+
+
+    }
+    @Test
+    public void VerifySignin(){
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Sign in",driver);
+
+
+    }
+    @Test
+    public void VerifyAddres(){
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Address",driver);
+
+
+    }
+    @Test
+    public void VerifyShipping(){
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Shipping",driver);
+
+
+    }
+    @Test
+    public void Verifypayment(){
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Payment",driver);
+
+
+    }
+
+
+
+
+
+      @AfterTest
+      public void closebrowser(){
+      driver.close();
+      driver.quit();
+    }
+
+
+
+
 
 }

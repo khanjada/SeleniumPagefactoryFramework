@@ -35,33 +35,33 @@ WomenCatalog womenCatalog;
     public void verifyWomentopTshirt(){
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTop("T-shirts","Women",driver);
+        womenCatalog.WomenTopDress("T-shirts","Women",driver);
     }
 
     @Test
     public void verifyWomentopBlouses(){
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTop("Blouses","Women",driver);
+        womenCatalog.WomenTopDress("Blouses","Women",driver);
     }
 
     @Test
     public void verifyWomenCasualDress(){
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenDresses("Casual Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Casual Dresses","Women",driver);
     }
     @Test
     public void verifyWomenEveningDress(){
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenDresses("Evening Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Evening Dresses","Women",driver);
     }
     @Test
     public void verifyWomenSummerDress(){
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenDresses("Summer Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Summer Dresses","Women",driver);
     }
 
 
@@ -72,14 +72,49 @@ WomenCatalog womenCatalog;
 
     }
 
+    @Test
+    public void verifyWomenFilerProductBlouse(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Tops","Blouses",driver);
+
+    }
+
+    @Test
+    public void verifyWomenFilerProductSecond(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("dresses","Casual Dresses",driver);
+
+    }
+
+    @Test
+    public void verifyWomenFilerProducDress(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses","Casual Dresses",driver);
+
+    }
+    @Test
+    public void verifyWomenFilerProducDressEvening(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses","Evening Dresses",driver);
+
+    }
+    @Test
+    public void verifyWomenFilerProducDressSummer(){
+        womenCatalog=new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses","Summer Dresses",driver);
+
+    }
+
+
+
 
 
 
 
     @AfterTest
     public void closebrowser(){
-//        driver.close();
-//        driver.quit();
+        driver.close();
+        driver.quit();
     }
 
 

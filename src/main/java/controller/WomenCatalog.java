@@ -26,18 +26,14 @@ public class WomenCatalog extends ScriptBase {
 
     }
 
-    public void WomenTop(String product, String catalogTab, WebDriver driver) {
+    public void WomenTopDress(String product, String catalogTab, WebDriver driver) {
 
         mouseOver(driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/a[contains(text(),'" + catalogTab + "')]")), driver);
-        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/ul/li//a[@title='" + product + "']")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/ul/li/ul/li/a[@title='"+product+"']")).isDisplayed();
 
     }
 
-    public void WomenDresses(String dressesType, String catalogTab, WebDriver driver) {
 
-        mouseOver(driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/a[contains(text(),'" + catalogTab + "')]")), driver);
-        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/ul/li/a[@title='" + dressesType + "']")).isDisplayed();
-    }
 
     public void womenCatalogeFilter(String filterCatagory,String dressCatagory,WebDriver driver){
         womenTab.click();
@@ -46,7 +42,7 @@ public class WomenCatalog extends ScriptBase {
             if (womenFilterTab.isDisplayed()){
                 driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'"+dressCatagory+"')]")).isDisplayed();
             }else {
-                System.out.println("Women Filter tab notn found "+womenFilterTab);
+                System.out.println("Women Filter tab not found "+womenFilterTab);
             }
 
         }else {
