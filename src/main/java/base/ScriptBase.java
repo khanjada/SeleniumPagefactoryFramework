@@ -7,13 +7,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class ScriptBase {
-      public WebDriver driver;
+    public WebDriver driver;
 
-      public void init(){
-       System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
-       driver = new ChromeDriver();
-       driver.get("http://automationpractice.com/index.php");
+    public void init() {
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+        driver = new ChromeDriver();
+        driver.get("http://automationpractice.com/index.php");
 
-   }
+    }
 
 }
