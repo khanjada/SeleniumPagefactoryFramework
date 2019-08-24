@@ -12,7 +12,7 @@ import org.testng.Assert;
 public class ContactUsPage extends ScriptBase {
 
 
-    @FindBy (css = "#contact-link > a")
+    @FindBy(css = "#contact-link > a")
     WebElement contucts;
     @FindBy(css = "#center_column > h1")
     WebElement contactUspageAssert;
@@ -61,23 +61,25 @@ public class ContactUsPage extends ScriptBase {
     WebElement subjectHeadingSelect;
 
 
-    public ContactUsPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    public ContactUsPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 
     public void contuctus() {
 
         contucts.click();
-        Assert.assertEquals(contactUspageAssert,contactUspageAssert);
+        Assert.assertEquals(contactUspageAssert, contactUspageAssert);
         contact2nd.isDisplayed();
 
     }
+
     public void SendAmessageText() {
         contucts.click();
 
         sendAmessage.isDisplayed();
 
     }
+
     public void EmailAddressText() {
         contucts.click();
         EmailAddress.isDisplayed();
@@ -91,6 +93,7 @@ public class ContactUsPage extends ScriptBase {
 
 
     }
+
     public void OrderRefrenceAndInput(String put) {
         contucts.click();
         orderRefrenceDisp.isDisplayed();
@@ -98,71 +101,68 @@ public class ContactUsPage extends ScriptBase {
 
 
     }
+
     public void AttachFiletextDisplay() {
         contucts.click();
         AttachFileText.isDisplayed();
 
 
-
     }
+
     public void MessageTextdispAndInput(String value) {
         contucts.click();
         MessageDisp.isDisplayed();
         messageBox.sendKeys(value);
 
 
-
     }
+
     public void SendButton() {
         contucts.click();
         sendButton.click();
-        Assert.assertEquals(subjectAssert,subjectAssert);
-
-
+        Assert.assertEquals(subjectAssert, subjectAssert);
 
 
     }
 
-public void InvalidContactInfo(String Email,String reference,String message,String valuee){
-    contucts.click();
-    Assert.assertEquals(contactUspageAssert,contactUspageAssert);
-    dropdown(subjectHeadingSelect,valuee);
-    email.sendKeys(Email);
-    orderTextBox.sendKeys(reference);
-    messageBox.sendKeys(message);
-    sendButton.click();
-    Assert.assertEquals(messageSent,messageSent);
+    public void InvalidContactInfo(String Email, String reference, String message, String valuee) {
+        contucts.click();
+        Assert.assertEquals(contactUspageAssert, contactUspageAssert);
+        dropdown(subjectHeadingSelect, valuee);
+        email.sendKeys(Email);
+        orderTextBox.sendKeys(reference);
+        messageBox.sendKeys(message);
+        sendButton.click();
+        Assert.assertEquals(messageSent, messageSent);
 
 
+    }
 
-}
 
-
-   public void dropdown(WebElement element,String value){
+    public void dropdown(WebElement element, String value) {
         element = subjectHeadingSelect;
-       Select select = new Select(element);
-       select.selectByVisibleText(value);
+        Select select = new Select(element);
+        select.selectByVisibleText(value);
 
-}
+    }
 
-        public void VieMyCart(String input,WebDriver driver){
+    public void VieMyCart(String input, WebDriver driver) {
 
         myCart.click();
         ShoppingcartLogoText.isDisplayed();
-        Assert.assertEquals(ShoppingCartSummary,ShoppingCartSummary);
-        cartSummeryBar(input,driver);
-        Assert.assertEquals(ShoppingCartEmpty,ShoppingCartEmpty);
+        Assert.assertEquals(ShoppingCartSummary, ShoppingCartSummary);
+        cartSummeryBar(input, driver);
+        Assert.assertEquals(ShoppingCartEmpty, ShoppingCartEmpty);
 
 
     }
 
-public void cartSummeryBar(String input,WebDriver driver){
-    myCart.click();
+    public void cartSummeryBar(String input, WebDriver driver) {
+        myCart.click();
 
-    driver.findElement(By.xpath("//span[contains(text(),'"+input+"')]")).isDisplayed();
+        driver.findElement(By.xpath("//span[contains(text(),'" + input + "')]")).isDisplayed();
 
-}
-
+    }
 
 
 }

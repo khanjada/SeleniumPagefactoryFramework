@@ -12,8 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class HomePage extends ScriptBase {
 
-//    @FindBy(linkText = "Call us now: ")
-//    WebElement callusNow;
+
     @FindBy(id = "search_query_top")
     WebElement searchQueryTop;
     @FindBy(xpath = "//*[@id='searchbox']/button")
@@ -25,78 +24,79 @@ public class HomePage extends ScriptBase {
 
     @FindBy(css = "#contact-link > a")
     WebElement contuctUs;
-    @FindBy(css="#center_column > h1")WebElement contactUsPageAssert;
+    @FindBy(css = "#center_column > h1")
+    WebElement contactUsPageAssert;
 
 
-
-
-    public HomePage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    public HomePage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 
 
-
-    public  void TopSearch(String input,WebDriver driver,String quantity){
+    public void TopSearch(String input, WebDriver driver, String quantity) {
 
         searchQueryTop.sendKeys(input);
         searchButton.click();
-        driver.findElement(By.xpath("//*[@id='center_column']/h1/span[contains(text(),'"+quantity+" results have been found.')]")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='center_column']/h1/span[contains(text(),'" + quantity + " results have been found.')]")).isDisplayed();
         searchQueryTop.clear();
-}
+    }
 
-    public  void TopSearchone(String input,WebDriver driver,String quantity){
+    public void TopSearchone(String input, WebDriver driver, String quantity) {
 
         searchQueryTop.sendKeys(input);
         searchButton.click();
-        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" results have been found.')]")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'" + quantity + " results have been found.')]")).isDisplayed();
         searchQueryTop.clear();
     }
 
-    public  void TopSearchTwo(String input,WebDriver driver,String quantity){
+    public void TopSearchTwo(String input, WebDriver driver, String quantity) {
 
         searchQueryTop.sendKeys(input);
         searchButton.click();
-        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" result has been found.')]")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'" + quantity + " result has been found.')]")).isDisplayed();
         searchQueryTop.clear();
     }
-    public  void TopSearchThree(String input,WebDriver driver,String quantity){
+
+    public void TopSearchThree(String input, WebDriver driver, String quantity) {
 
         searchQueryTop.sendKeys(input);
         searchButton.click();
-        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'"+quantity+" result has been found.')]")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='center_column']//span[contains(text(),'" + quantity + " result has been found.')]")).isDisplayed();
         searchQueryTop.clear();
     }
-    public  void Category(WebDriver driver,String categorySelect){
+
+    public void Category(WebDriver driver, String categorySelect) {
 
 
-        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/a[@title='"+categorySelect+"']")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/a[@title='" + categorySelect + "']")).isDisplayed();
 
     }
 
-    public  void PopularBestseller(WebDriver driver,String category){
+    public void PopularBestseller(WebDriver driver, String category) {
         homepageNavigation.click();
-        driver.findElement(By.xpath("//*[@id='home-page-tabs']/li/a[contains(text(),'"+category+"')]")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='home-page-tabs']/li/a[contains(text(),'" + category + "')]")).isDisplayed();
 
     }
 
-    public  void InformationCascade(WebDriver driver,String types){
+    public void InformationCascade(WebDriver driver, String types) {
 
 
-        driver.findElement(By.xpath("//*[@id='block_various_links_footer']/ul/li/a[@title='"+types+"']")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='block_various_links_footer']/ul/li/a[@title='" + types + "']")).isDisplayed();
+
+    }
+
+    public void MyAccountCascade(WebDriver driver, String mytypes) {
+
+
+        driver.findElement(By.xpath("//*[@id='footer']/div/section[5]/div/ul/li/a[@title='" + mytypes + "']")).isDisplayed();
 
     }
 
-    public  void MyAccountCascade(WebDriver driver,String mytypes){
-
-
-        driver.findElement(By.xpath("//*[@id='footer']/div/section[5]/div/ul/li/a[@title='"+mytypes+"']")).isDisplayed();
-
-    }
-    public void NewContactUs(){
+    public void NewContactUs() {
 
         contuctUs.click();
 
-        Assert.assertEquals(contactUsPageAssert,contactUsPageAssert);
+        Assert.assertEquals(contactUsPageAssert, contactUsPageAssert);
     }
 
 }
