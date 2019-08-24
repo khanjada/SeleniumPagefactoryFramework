@@ -15,6 +15,7 @@ public class WomenCatalog extends ScriptBase {
     @FindBy(css ="#categories_block_left > h2") WebElement womenFilterTab;
 
 
+
     public WomenCatalog(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -59,6 +60,7 @@ public class WomenCatalog extends ScriptBase {
             actions.moveToElement(element).perform();
 
         }
+
 
 
     }
