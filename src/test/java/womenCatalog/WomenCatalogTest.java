@@ -9,110 +9,109 @@ import org.testng.annotations.Test;
 public class WomenCatalogTest extends ScriptBase {
 
 
-WomenCatalog womenCatalog;
+    WomenCatalog womenCatalog;
+
     @BeforeTest
-    public void beforetest(){
+    public void beforetest() {
         init();
     }
 
 
-
     @Test
-    public void verifyWomenDress(){
+    public void verifyWomenDress() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenProduct("Women",driver);
+        womenCatalog.WomenProduct("Women", driver);
     }
 
     @Test
-    public void verifyCatalogTabDress(){
+    public void verifyCatalogTabDress() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenProduct("Dresses",driver);
+        womenCatalog.WomenProduct("Dresses", driver);
     }
 
     @Test
-    public void verifyWomentopTshirt(){
+    public void verifyWomentopTshirt() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTopDress("T-shirts","Women",driver);
+        womenCatalog.WomenTopDress("T-shirts", "Women", driver);
     }
 
     @Test
-    public void verifyWomentopBlouses(){
+    public void verifyWomentopBlouses() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTopDress("Blouses","Women",driver);
+        womenCatalog.WomenTopDress("Blouses", "Women", driver);
     }
 
     @Test
-    public void verifyWomenCasualDress(){
+    public void verifyWomenCasualDress() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTopDress("Casual Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Casual Dresses", "Women", driver);
     }
+
     @Test
-    public void verifyWomenEveningDress(){
+    public void verifyWomenEveningDress() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTopDress("Evening Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Evening Dresses", "Women", driver);
     }
+
     @Test
-    public void verifyWomenSummerDress(){
+    public void verifyWomenSummerDress() {
 
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.WomenTopDress("Summer Dresses","Women",driver);
+        womenCatalog.WomenTopDress("Summer Dresses", "Women", driver);
     }
 
 
     @Test
-    public void verifyWomenFilerProduct(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("Tops","T-shirts",driver);
+    public void verifyWomenFilerProduct() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Tops", "T-shirts", driver);
 
     }
 
     @Test
-    public void verifyWomenFilerProductBlouse(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("Tops","Blouses",driver);
+    public void verifyWomenFilerProductBlouse() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Tops", "Blouses", driver);
 
     }
 
     @Test
-    public void verifyWomenFilerProductSecond(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("dresses","Casual Dresses",driver);
+    public void verifyWomenFilerProductSecond() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("dresses", "Casual Dresses", driver);
 
     }
 
     @Test
-    public void verifyWomenFilerProducDress(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("Dresses","Casual Dresses",driver);
+    public void verifyWomenFilerProducDress() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses", "Casual Dresses", driver);
 
     }
+
     @Test
-    public void verifyWomenFilerProducDressEvening(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("Dresses","Evening Dresses",driver);
+    public void verifyWomenFilerProducDressEvening() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses", "Evening Dresses", driver);
 
     }
+
     @Test
-    public void verifyWomenFilerProducDressSummer(){
-        womenCatalog=new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("Dresses","Summer Dresses",driver);
+    public void verifyWomenFilerProducDressSummer() {
+        womenCatalog = new WomenCatalog(driver);
+        womenCatalog.womenCatalogeFilter("Dresses", "Summer Dresses", driver);
 
     }
-
-
-
-
-
 
 
     @AfterTest
-    public void closebrowser(){
+    public void closebrowser() {
         driver.close();
         driver.quit();
     }

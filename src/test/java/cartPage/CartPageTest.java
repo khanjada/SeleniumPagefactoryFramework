@@ -67,6 +67,13 @@ public class CartPageTest extends ScriptBase {
 
 
     }
+    @Test
+    public void VerifAddCart() throws InterruptedException {
+        cartPage = new CartPage(driver);
+        cartPage.Addcart(driver);
+
+
+    }
 
 
 
