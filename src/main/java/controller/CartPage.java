@@ -89,6 +89,23 @@ public class CartPage extends ScriptBase {
         cartViewCheckOutTab.isDisplayed();
 
 
+//        public void AddcartByIfElse(WebDriver driver){
+//            mouseOver(sleeveTshirts, driver);
+//            if(womenFilterTab.isDisplayed()){
+//                driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'"+filterCatagory+"')]")).click();
+//                if (womenFilterTab.isDisplayed()){
+//                    driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'"+dressCatagory+"')]")).isDisplayed();
+//                }else {
+//                    System.out.println("Women Filter tab not found "+womenFilterTab);
+//                }
+//
+//            }else {
+//                System.out.println("Women Filter Tab not found "+womenFilterTab);
+//            }
+//
+//        }
+
+
     }
 
 
