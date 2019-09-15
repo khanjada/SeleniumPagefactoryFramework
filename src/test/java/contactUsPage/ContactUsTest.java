@@ -2,7 +2,6 @@ package contactUsPage;
 
 import base.ScriptBase;
 import controller.ContactUsPage;
-import controller.HomePage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -13,43 +12,67 @@ public class ContactUsTest extends ScriptBase {
 
 
     @BeforeTest
-    public void beforetest(){
+    public void beforetest() {
         init();
     }
 
     @Test
     public void VerifyContuctUs() {
-        contactUsPage = new ContactUsPage (driver);
+        log.info("##### Verify Contuct Us ######:+ >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
         contactUsPage.contuctus();
 
+        log.info("##### Verify Contuct Us ######:+ >Test End");
+
 
     }
 
     @Test
-    public void VerifySendAmessagetext() {
-        contactUsPage = new ContactUsPage (driver);
-        contactUsPage.SendAmessageText();
+    public void VerifySendButtonPic() {
+        log.info("##### Verify Send A message text ######:+ >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.SendTabText();
+
+        log.info("##### Verify Send A message text ######:+ >Test End");
 
 
     }
+
     @Test
     public void VerifyEmailAdressDisplay() {
-        contactUsPage = new ContactUsPage (driver);
+        log.info("##### Verify Email Adress Display ######:+ >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
         contactUsPage.EmailAddressText();
 
+        log.info("##### Verify Email Adress Display ######:+ >Test End");
+
 
     }
+
     @Test
     public void VerifyEmailAdressInput() {
-        contactUsPage = new ContactUsPage (driver);
+        log.info("##### Verify Email Adress Input ######:+ >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
         contactUsPage.EmailAddressInput("khanjada@hotmail.com");
+
+        log.info("##### Verify Email Adress Input ######:+ >Test End");
 
 
     }
+
     @Test
     public void VerifyOrderRefrenceAndInput() {
-        contactUsPage = new ContactUsPage (driver);
+
+        log.info("##### Verify Order Refrence And Input ######:+ >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
         contactUsPage.OrderRefrenceAndInput("janina");
+
+        log.info("##### Verify Order Refrence And Input ######:+ >Test End");
 
 
     }
@@ -57,96 +80,128 @@ public class ContactUsTest extends ScriptBase {
 
     @Test
     public void VerifyAttachFileTextDisplay() {
+
+        log.info("####### Verify Attach File Text Display ########:  >Test Start");
+
         contactUsPage = new ContactUsPage(driver);
         contactUsPage.AttachFiletextDisplay();
 
+        log.info("####### Verify Attach File Text Display ########:  >Test End");
+
 
     }
+
     @Test
     public void VerifyMessageTextDispAndInput() {
+
+        log.info("####### Verify Message Text Disp And Input ########:  >Test Start");
+
         contactUsPage = new ContactUsPage(driver);
         contactUsPage.MessageTextdispAndInput("hi every one");
+
+        log.info("####### Verify Message Text Disp And Input ########:  >Test End");
 
 
     }
 
     @Test
     public void VerifySendButton() {
+
+        log.info("####### Verify Send Button ########:  >Test Start");
+
         contactUsPage = new ContactUsPage(driver);
         contactUsPage.SendButton();
 
+        log.info("####### Verify Send Button ########:  >Test End");
+
 
     }
+
     @Test
     public void VerifyInvalidContactInfo() {
-        contactUsPage = new ContactUsPage(driver);
-        contactUsPage.InvalidContactInfo("khanjada@hotmail.com", "test","hi","Customer service");
 
+        log.info("####### Verify Invalid Contact Information ########:  >Test Start");
+
+        contactUsPage = new ContactUsPage(driver);
+        contactUsPage.InvalidContactInfo("khanjada@hotmail.com", "test", "hi", "Customer service");
+
+        log.info("####### Verify Invalid Contact Information ########:  >Test End");
 
     }
 
 
     @Test
-    public void VerifyMyCart(){
+    public void VerifySummary() {
+
+        log.info("####### Verify Summary ########:  >Test Start");
 
         contactUsPage = new ContactUsPage(driver);
+        contactUsPage.VieMyCart(" Summary", driver);
 
+        log.info("####### Verify Summary ########:  >Test End");
 
 
     }
+
     @Test
-    public void VerifySummary(){
+    public void VerifySignin() {
+
+        log.info("####### Verify Signin ########:  >Test Start");
+
 
         contactUsPage = new ContactUsPage(driver);
-        contactUsPage.VieMyCart(" Summary",driver);
+        contactUsPage.VieMyCart(" Sign in", driver);
+
+        log.info("####### Verify Signin ########:  >Test End");
 
 
     }
+
     @Test
-    public void VerifySignin(){
+    public void VerifyAddres() {
+
+        log.info("####### Verify Addres ########:  >Test Start");
 
         contactUsPage = new ContactUsPage(driver);
-        contactUsPage.VieMyCart(" Sign in",driver);
+        contactUsPage.VieMyCart(" Address", driver);
+
+        log.info("####### Verify Addres ########:  >Test End");
 
 
     }
+
     @Test
-    public void VerifyAddres(){
+    public void VerifyShipping() {
+
+        log.info("####### Verify Shipping ########:  >Test Start");
 
         contactUsPage = new ContactUsPage(driver);
-        contactUsPage.VieMyCart(" Address",driver);
+        contactUsPage.VieMyCart(" Shipping", driver);
+
+        log.info("####### Verify Shipping ########:  >Test End");
 
 
     }
+
     @Test
-    public void VerifyShipping(){
+    public void Verifypayment() {
+
+        log.info("####### Verify Payment ########:  >Test Start");
 
         contactUsPage = new ContactUsPage(driver);
-        contactUsPage.VieMyCart(" Shipping",driver);
+        contactUsPage.VieMyCart(" Payment", driver);
 
-
-    }
-    @Test
-    public void Verifypayment(){
-
-        contactUsPage = new ContactUsPage(driver);
-        contactUsPage.VieMyCart(" Payment",driver);
+        log.info("####### Verify Payment ########:  >Test End");
 
 
     }
 
 
-
-
-
-      @AfterTest
-      public void closebrowser(){
-      driver.close();
-      driver.quit();
+    @AfterTest
+    public void closebrowser() {
+//        driver.close();
+//        driver.quit();
     }
-
-
-
 
 
 }

@@ -11,9 +11,10 @@ import org.openqa.selenium.support.PageFactory;
 public class WomenCatalog extends ScriptBase {
 
 
-    @FindBy(css ="#block_top_menu > ul > li:nth-child(1) > a") WebElement womenTab;
-    @FindBy(css ="#categories_block_left > h2") WebElement womenFilterTab;
-
+    @FindBy(css = "#block_top_menu > ul > li:nth-child(1) > a")
+    WebElement womenTab;
+    @FindBy(css = "#categories_block_left > h2")
+    WebElement womenFilterTab;
 
 
     public WomenCatalog(WebDriver driver) {
@@ -30,37 +31,35 @@ public class WomenCatalog extends ScriptBase {
     public void WomenTopDress(String product, String catalogTab, WebDriver driver) {
 
         mouseOver(driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/a[contains(text(),'" + catalogTab + "')]")), driver);
-        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/ul/li/ul/li/a[@title='"+product+"']")).isDisplayed();
+        driver.findElement(By.xpath("//*[@id='block_top_menu']/ul/li/ul/li/ul/li/a[@title='" + product + "']")).isDisplayed();
 
     }
 
 
-
-    public void womenCatalogeFilter(String filterCatagory,String dressCatagory,WebDriver driver){
+    public void womenCatalogeFilter(String filterCatagory, String dressCatagory, WebDriver driver) {
         womenTab.click();
-        if(womenFilterTab.isDisplayed()){
-            driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'"+filterCatagory+"')]")).click();
-            if (womenFilterTab.isDisplayed()){
-                driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'"+dressCatagory+"')]")).isDisplayed();
-            }else {
-                System.out.println("Women Filter tab not found "+womenFilterTab);
+        if (womenFilterTab.isDisplayed()) {
+            driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'" + filterCatagory + "')]")).click();
+            if (womenFilterTab.isDisplayed()) {
+                driver.findElement(By.xpath("//*[@id='categories_block_left']/div/ul/li/a[contains(text(),'" + dressCatagory + "')]")).isDisplayed();
+            } else {
+                System.out.println("Women Filter tab not found " + womenFilterTab);
             }
 
-        }else {
-            System.out.println("Women Filter Tab not found "+womenFilterTab);
+        } else {
+            System.out.println("Women Filter Tab not found " + womenFilterTab);
         }
 
     }
 
 
-        public void mouseOver (WebElement element, WebDriver driver){
+    public void mouseOver(WebElement element, WebDriver driver) {
 
-            Actions actions = new Actions(driver);
-            element = element;
-            actions.moveToElement(element).perform();
-
-        }
-
-
+        Actions actions = new Actions(driver);
+        element = element;
+        actions.moveToElement(element).perform();
 
     }
+
+
+}
