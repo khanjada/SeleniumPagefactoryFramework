@@ -84,7 +84,7 @@ public class WomenCatalogTest extends ScriptBase {
     @Test
     public void verifyWomenFilerProductSecond() {
         womenCatalog = new WomenCatalog(driver);
-        womenCatalog.womenCatalogeFilter("dresses", "Casual Dresses", driver);
+        womenCatalog.womenCatalogeFilter("Dresses", "Casual Dresses", driver);
 
     }
 
