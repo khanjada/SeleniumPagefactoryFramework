@@ -6,14 +6,17 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+
 public class ContactUsTest extends ScriptBase {
 
     ContactUsPage contactUsPage;
 
 
     @BeforeTest
-    public void beforetest() {
-        init();
+    public void beforetest() throws MalformedURLException {
+//        init();
+        saucelab();
     }
 
     @Test
@@ -199,8 +202,8 @@ public class ContactUsTest extends ScriptBase {
 
     @AfterTest
     public void closebrowser() {
-//        driver.close();
-//        driver.quit();
+        driver.close();
+        driver.quit();
     }
 
 

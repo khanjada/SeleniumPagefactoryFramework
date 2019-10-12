@@ -1,0 +1,399 @@
+2019-10-05 12:12:00 INFO  ScriptBase:94 - ######## Verify AddCart Multiple Blouse Product  >Test Start ###########
+2019-10-05 12:12:01 INFO  CartPage:156 - Home button is Clicked:[[ChromeDriver: chrome on MAC (7cc9552c375c18713ade0960626fc020)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 12:12:02 INFO  CartPage:159 - Product Added Successfully:
+2019-10-05 12:12:03 INFO  CartPage:162 - Product Quanity Added
+2019-10-05 12:12:04 INFO  CartPage:165 - Home button is Clicked:[[ChromeDriver: chrome on MAC (7cc9552c375c18713ade0960626fc020)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 12:12:04 INFO  ScriptBase:99 - ######## Verify AddCart Multiple Blouse Product  >Test End ###########
+2019-10-05 12:54:59 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 12:55:01 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (18ef220c2d5442ca1dd2ff6551813753)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 12:55:02 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 12:55:03 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 12:59:58 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 12:59:59 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (ca31b97bfe90fe482e6fb3cc84930779)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:00:00 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:00:01 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:00:49 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:00:51 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (0953b6a568dc721427e4f977f2549231)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:00:51 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:00:52 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:03:05 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:03:07 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (444d68621d62e508b28c9b5eb0d3f7ff)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:03:07 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:03:08 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:04:23 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:04:25 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (aaba99c9cf1ec72121db189914585a2a)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:04:26 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:04:26 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:05:26 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:05:27 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (06bf1c7c41b04bc7ef4cedf911a71cd8)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:05:32 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:06:14 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:11:22 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:11:24 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (22ed5aa908f4eb3fb3208fc7cdbf401f)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:11:24 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:11:25 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:15:37 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:15:38 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (0f2eef2be3a7ae1282fbb9fca6fba1de)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:15:39 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:15:39 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:16:23 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:16:25 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (b5a895a18ed2a31488d9bc8a2c59504a)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:16:25 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:16:26 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:26:32 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:26:33 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (d38c14ab17bff641501f14c53236135d)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:26:34 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:26:34 INFO  CartPage:193 - Product Quanity Added
+2019-10-05 13:26:59 INFO  ScriptBase:138 - ######## VerifyRemoveProduct  >Test Start ###########
+2019-10-05 13:27:01 INFO  CartPage:187 - Home button is Clicked:[[ChromeDriver: chrome on MAC (7990452deb0ab29afc3a7b25587e0c51)] -> xpath: //*[@class='logo img-responsive']]
+2019-10-05 13:27:02 INFO  CartPage:190 - Product Added Successfully:
+2019-10-05 13:27:02 INFO  CartPage:193 - Product Quanity Added
+2019-10-06 10:08:09 INFO  ScriptBase:35 - ###### Verify BY Shoe Search : > Test Start ########
+2019-10-06 10:08:10 INFO  HomePage:65 - Search Query Top input Shoe;[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:11 INFO  HomePage:68 - Search Button Clicked;[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> xpath: //*[@id='searchbox']/button]
+2019-10-06 10:08:11 INFO  HomePage:73 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:11 INFO  ScriptBase:40 - ###### Verify BY Shoe Search  : > Test End ########
+2019-10-06 10:08:11 INFO  ScriptBase:126 - ###### Verify Best seller : > Test Start ########
+2019-10-06 10:08:12 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> css selector: #header_logo > a > img]
+2019-10-06 10:08:12 INFO  HomePage:116 - Input a catagory :
+2019-10-06 10:08:12 INFO  ScriptBase:131 - ###### Verify Best seller  : > Test End ########
+2019-10-06 10:08:12 INFO  ScriptBase:48 - ###### Verify BY Blouse Search : > Test Start ########
+2019-10-06 10:08:12 INFO  HomePage:79 - Top Search By Blouse:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:13 INFO  HomePage:82 - Search Button Clicked;[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> xpath: //*[@id='searchbox']/button]
+2019-10-06 10:08:13 INFO  HomePage:87 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:13 INFO  ScriptBase:53 - ###### Verify BY Blouse Search  : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:87 - ###### Verify Category Dresses : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-06 10:08:13 INFO  ScriptBase:92 - ###### Verify Category Dresses  : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:100 - ###### Verify Category Tshirt : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-06 10:08:13 INFO  ScriptBase:105 - ###### Verify Category Tshirt  : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:74 - ###### Verify Category Women : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-06 10:08:13 INFO  ScriptBase:79 - ###### Verify Category Women  : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:142 - ###### Verify Information : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:147 - ###### Verify Information  : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:233 - ###### Verify Information 8 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:238 - ###### Verify Information 8 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:194 - ###### Verify Information 5 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:199 - ###### Verify Information 5 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:181 - ###### Verify Information 5 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:186 - ###### Verify Information 5 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:220 - ###### Verify Information 7 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:225 - ###### Verify Information 7 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:207 - ###### Verify Information 6 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:212 - ###### Verify Information 6 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:168 - ###### Verify Information 3 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:173 - ###### Verify Information 3 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:155 - ###### Verify Information 2 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:123 - Input Types
+2019-10-06 10:08:13 INFO  ScriptBase:160 - ###### Verify Information 2 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:246 - ###### My Account Cascade 1 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:130 - Input My Types
+2019-10-06 10:08:13 INFO  ScriptBase:251 - ###### Verify My Account Cascade 1 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:287 - ###### Verify My Account Cascade 4 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:130 - Input My Types
+2019-10-06 10:08:13 INFO  ScriptBase:292 - ###### Verify My Account Cascade 4 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:274 - ###### Verify My Account Cascade 3 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:130 - Input My Types
+2019-10-06 10:08:13 INFO  ScriptBase:279 - ###### Verify My Account Cascade 3 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:261 - ###### Verify My Account Cascade 2 : > Test Start ########
+2019-10-06 10:08:13 INFO  HomePage:130 - Input My Types
+2019-10-06 10:08:13 INFO  ScriptBase:266 - ###### Verify My Account Cascade 2 : > Test End ########
+2019-10-06 10:08:13 INFO  ScriptBase:113 - ###### Verify Popular  : > Test Start ########
+2019-10-06 10:08:14 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> css selector: #header_logo > a > img]
+2019-10-06 10:08:14 INFO  HomePage:116 - Input a catagory :
+2019-10-06 10:08:14 INFO  ScriptBase:118 - ###### Verify Popular   : > Test End ########
+2019-10-06 10:08:14 INFO  ScriptBase:61 - ###### Verify Skirt Search : > Test Start ########
+2019-10-06 10:08:14 INFO  HomePage:93 - Search By Skirt:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:15 INFO  HomePage:96 - Search Button Clicked;[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> xpath: //*[@id='searchbox']/button]
+2019-10-06 10:08:15 INFO  HomePage:101 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:15 INFO  ScriptBase:66 - ###### Verify Skirt Search  : > Test End ########
+2019-10-06 10:08:15 INFO  ScriptBase:22 - ###### Verify Top Search : > Test Start ########
+2019-10-06 10:08:15 INFO  HomePage:43 - Search Query Top:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:16 INFO  HomePage:51 - Search Button Clicked:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> xpath: //*[@id='searchbox']/button]
+2019-10-06 10:08:16 INFO  HomePage:55 - Quantity founded By search
+2019-10-06 10:08:16 INFO  HomePage:58 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> id: search_query_top]
+2019-10-06 10:08:16 INFO  ScriptBase:27 - ###### Verify Top Search  : > Test End ########
+2019-10-06 10:08:16 INFO  ScriptBase:299 - ###### Verify Contuct Us : > Test Start ########
+2019-10-06 10:08:17 INFO  HomePage:136 - Contuct Us Button Clicked:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> css selector: #contact-link > a]
+2019-10-06 10:08:17 INFO  HomePage:139 - Displayed Contact Us Page:[[ChromeDriver: chrome on MAC (96dd68cdd8c6d2b8c4d820463bbeab30)] -> css selector: #center_column > h1]
+2019-10-06 10:08:17 INFO  ScriptBase:304 - ###### Verify Contuct Us : > Test End ########
+2019-10-12 12:42:38 INFO  ScriptBase:25 - ###### Verify Top Search : > Test Start ########
+2019-10-12 12:42:39 INFO  HomePage:43 - Search Query Top:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> id: search_query_top]
+2019-10-12 12:42:39 INFO  HomePage:51 - Search Button Clicked:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:42:39 INFO  HomePage:55 - Quantity founded By search
+2019-10-12 12:42:39 INFO  HomePage:58 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> id: search_query_top]
+2019-10-12 12:42:39 INFO  ScriptBase:30 - ###### Verify Top Search  : > Test End ########
+2019-10-12 12:42:39 INFO  ScriptBase:64 - ###### Verify Skirt Search : > Test Start ########
+2019-10-12 12:42:40 INFO  HomePage:93 - Search By Skirt:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> id: search_query_top]
+2019-10-12 12:42:41 INFO  HomePage:96 - Search Button Clicked;[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:42:41 INFO  HomePage:101 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> id: search_query_top]
+2019-10-12 12:42:41 INFO  ScriptBase:69 - ###### Verify Skirt Search  : > Test End ########
+2019-10-12 12:42:41 INFO  ScriptBase:77 - ###### Verify Category Women : > Test Start ########
+2019-10-12 12:42:41 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:42:41 INFO  ScriptBase:82 - ###### Verify Category Women  : > Test End ########
+2019-10-12 12:42:41 INFO  ScriptBase:90 - ###### Verify Category Dresses : > Test Start ########
+2019-10-12 12:42:41 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:42:41 INFO  ScriptBase:95 - ###### Verify Category Dresses  : > Test End ########
+2019-10-12 12:42:41 INFO  ScriptBase:103 - ###### Verify Category Tshirt : > Test Start ########
+2019-10-12 12:42:41 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:42:41 INFO  ScriptBase:108 - ###### Verify Category Tshirt  : > Test End ########
+2019-10-12 12:42:41 INFO  ScriptBase:116 - ###### Verify Popular  : > Test Start ########
+2019-10-12 12:42:42 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> css selector: #header_logo > a > img]
+2019-10-12 12:42:42 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:42:42 INFO  ScriptBase:121 - ###### Verify Popular   : > Test End ########
+2019-10-12 12:42:42 INFO  ScriptBase:129 - ###### Verify Best seller : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (eae44b3f1153b2b37c686877f5ba7290)] -> css selector: #header_logo > a > img]
+2019-10-12 12:42:43 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:42:43 INFO  ScriptBase:134 - ###### Verify Best seller  : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:145 - ###### Verify Information : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:150 - ###### Verify Information  : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:158 - ###### Verify Information 2 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:163 - ###### Verify Information 2 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:171 - ###### Verify Information 3 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:176 - ###### Verify Information 3 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:184 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:189 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:197 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:202 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:210 - ###### Verify Information 6 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:215 - ###### Verify Information 6 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:223 - ###### Verify Information 7 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:228 - ###### Verify Information 7 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:236 - ###### Verify Information 8 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:123 - Input Types
+2019-10-12 12:42:43 INFO  ScriptBase:241 - ###### Verify Information 8 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:249 - ###### My Account Cascade 1 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:130 - Input My Types
+2019-10-12 12:42:43 INFO  ScriptBase:254 - ###### Verify My Account Cascade 1 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:264 - ###### Verify My Account Cascade 2 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:130 - Input My Types
+2019-10-12 12:42:43 INFO  ScriptBase:269 - ###### Verify My Account Cascade 2 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:277 - ###### Verify My Account Cascade 3 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:130 - Input My Types
+2019-10-12 12:42:43 INFO  ScriptBase:282 - ###### Verify My Account Cascade 3 : > Test End ########
+2019-10-12 12:42:43 INFO  ScriptBase:290 - ###### Verify My Account Cascade 4 : > Test Start ########
+2019-10-12 12:42:43 INFO  HomePage:130 - Input My Types
+2019-10-12 12:42:43 INFO  ScriptBase:295 - ###### Verify My Account Cascade 4 : > Test End ########
+2019-10-12 12:42:46 INFO  ScriptBase:60 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-10-12 12:42:47 INFO  LoginPage:145 - Signin Button clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //a[@class='login']]
+2019-10-12 12:42:47 INFO  LoginPage:148 - Invalid Email Address Given[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: email_create]
+2019-10-12 12:42:48 INFO  LoginPage:151 - Submit Creat account Button is Clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: email_create]
+2019-10-12 12:42:48 INFO  LoginPage:154 - InValid Email Error Message is Displayed:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //*[@id='create_account_error']]
+2019-10-12 12:42:48 INFO  ScriptBase:65 - ##########  Verify Invalid CreateAccount :> Test End ###########
+2019-10-12 12:42:48 INFO  ScriptBase:71 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-10-12 12:42:49 INFO  LoginPage:163 - Signin Button clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //a[@class='login']]
+2019-10-12 12:42:49 INFO  LoginPage:166 - Invalid Email Address Given[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: email_create]
+2019-10-12 12:42:49 INFO  LoginPage:169 - Submit Creat account Button is Clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: email_create]
+2019-10-12 12:42:49 INFO  LoginPage:172 - driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
+2019-10-12 12:42:56 INFO  LoginPage:175 - Title Mr Button Clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> css selector: #id_gender1]
+2019-10-12 12:42:56 INFO  LoginPage:178 - First Name SendKey:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: customer_firstname]
+2019-10-12 12:42:56 INFO  LoginPage:181 - Last Name SendKey:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: customer_lastname]
+2019-10-12 12:42:56 INFO  LoginPage:184 - Signup Email - Sendkey:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //*[@id='email']]
+2019-10-12 12:42:56 INFO  LoginPage:187 - Signup Password - Sendkey:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> id: passwd]
+2019-10-12 12:43:03 INFO  LoginPage:190 - Submit  Register Button is Clicked:[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> css selector: #submitAccount > span]
+2019-10-12 12:43:03 INFO  LoginPage:193 - There are 6 errors[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //*[@id='center_column']/div]
+2019-10-12 12:43:09 INFO  LoginPage:197 - Back to Home Page[[ChromeDriver: chrome on MAC (84a787c040440517c9d2977f27b315bd)] -> xpath: //*[@id='header_logo']//img[@class='logo img-responsive']]
+2019-10-12 12:43:09 INFO  ScriptBase:76 - ##########  Verify Invalid SignUp Account :> Test End ###########
+2019-10-12 12:43:09 INFO  ScriptBase:38 - ##########  Verify valid Signin :> Test Start ###########
+2019-10-12 12:44:23 INFO  ScriptBase:25 - ###### Verify Top Search : > Test Start ########
+2019-10-12 12:44:23 INFO  ScriptBase:77 - ###### Verify Category Women : > Test Start ########
+2019-10-12 12:44:23 INFO  ScriptBase:64 - ###### Verify Skirt Search : > Test Start ########
+2019-10-12 12:44:23 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:44:23 INFO  ScriptBase:82 - ###### Verify Category Women  : > Test End ########
+2019-10-12 12:44:23 INFO  ScriptBase:90 - ###### Verify Category Dresses : > Test Start ########
+2019-10-12 12:44:23 INFO  HomePage:93 - Search By Skirt:[[ChromeDriver: chrome on MAC (a6dccdfad2d2942b6e9f932e22bbafaf)] -> id: search_query_top]
+2019-10-12 12:44:23 INFO  HomePage:43 - Search Query Top:[[ChromeDriver: chrome on MAC (a6dccdfad2d2942b6e9f932e22bbafaf)] -> id: search_query_top]
+2019-10-12 12:44:23 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:44:23 INFO  ScriptBase:95 - ###### Verify Category Dresses  : > Test End ########
+2019-10-12 12:44:23 INFO  ScriptBase:103 - ###### Verify Category Tshirt : > Test Start ########
+2019-10-12 12:44:24 INFO  HomePage:96 - Search Button Clicked;[[ChromeDriver: chrome on MAC (a6dccdfad2d2942b6e9f932e22bbafaf)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:44:24 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:44:24 INFO  ScriptBase:108 - ###### Verify Category Tshirt  : > Test End ########
+2019-10-12 12:44:24 INFO  ScriptBase:116 - ###### Verify Popular  : > Test Start ########
+2019-10-12 12:44:24 INFO  ScriptBase:129 - ###### Verify Best seller : > Test Start ########
+2019-10-12 12:44:24 INFO  ScriptBase:145 - ###### Verify Information : > Test Start ########
+2019-10-12 12:44:25 INFO  ScriptBase:158 - ###### Verify Information 2 : > Test Start ########
+2019-10-12 12:44:25 INFO  ScriptBase:171 - ###### Verify Information 3 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (a6dccdfad2d2942b6e9f932e22bbafaf)] -> css selector: #header_logo > a > img]
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:163 - ###### Verify Information 2 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:184 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:176 - ###### Verify Information 3 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:197 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:44:25 INFO  ScriptBase:121 - ###### Verify Popular   : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:210 - ###### Verify Information 6 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:189 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:223 - ###### Verify Information 7 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:202 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:236 - ###### Verify Information 8 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:215 - ###### Verify Information 6 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:249 - ###### My Account Cascade 1 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:228 - ###### Verify Information 7 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:264 - ###### Verify My Account Cascade 2 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:123 - Input Types
+2019-10-12 12:44:25 INFO  ScriptBase:241 - ###### Verify Information 8 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:277 - ###### Verify My Account Cascade 3 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:130 - Input My Types
+2019-10-12 12:44:25 INFO  ScriptBase:254 - ###### Verify My Account Cascade 1 : > Test End ########
+2019-10-12 12:44:25 INFO  ScriptBase:290 - ###### Verify My Account Cascade 4 : > Test Start ########
+2019-10-12 12:44:25 INFO  HomePage:130 - Input My Types
+2019-10-12 12:44:25 INFO  ScriptBase:269 - ###### Verify My Account Cascade 2 : > Test End ########
+2019-10-12 12:44:26 INFO  HomePage:130 - Input My Types
+2019-10-12 12:44:26 INFO  ScriptBase:282 - ###### Verify My Account Cascade 3 : > Test End ########
+2019-10-12 12:44:26 INFO  HomePage:130 - Input My Types
+2019-10-12 12:44:26 INFO  ScriptBase:295 - ###### Verify My Account Cascade 4 : > Test End ########
+2019-10-12 12:44:28 INFO  ScriptBase:60 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-10-12 12:44:28 INFO  ScriptBase:71 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-10-12 12:44:28 INFO  ScriptBase:38 - ##########  Verify valid Signin :> Test Start ###########
+2019-10-12 12:44:29 INFO  ScriptBase:49 - ##########  Verify Valid Login With LogOut :> Test Start ###########
+2019-10-12 12:44:29 INFO  ScriptBase:26 - ##########  Verify invalid Signin :> Test Start ###########
+2019-10-12 12:44:29 INFO  LoginPage:145 - Signin Button clicked:[[ChromeDriver: chrome on MAC (47bfe981e5ce705f1277985655c25819)] -> xpath: //a[@class='login']]
+2019-10-12 12:44:35 INFO  LoginPage:123 - Signin Button clicked:[[ChromeDriver: chrome on MAC (47bfe981e5ce705f1277985655c25819)] -> xpath: //a[@class='login']]
+2019-10-12 12:44:35 INFO  LoginPage:126 - Email Box is Filledup with email:[[ChromeDriver: chrome on MAC (47bfe981e5ce705f1277985655c25819)] -> xpath: //*[@id='email']]
+2019-10-12 12:44:35 INFO  LoginPage:130 - Valid pass is given By sendkey:[[ChromeDriver: chrome on MAC (47bfe981e5ce705f1277985655c25819)] -> xpath: //*[@id='passwd']]
+2019-10-12 12:49:16 INFO  ScriptBase:25 - ###### Verify Top Search : > Test Start ########
+2019-10-12 12:49:16 INFO  ScriptBase:64 - ###### Verify Skirt Search : > Test Start ########
+2019-10-12 12:49:16 INFO  ScriptBase:77 - ###### Verify Category Women : > Test Start ########
+2019-10-12 12:49:17 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:49:17 INFO  ScriptBase:82 - ###### Verify Category Women  : > Test End ########
+2019-10-12 12:49:17 INFO  ScriptBase:90 - ###### Verify Category Dresses : > Test Start ########
+2019-10-12 12:49:17 INFO  HomePage:43 - Search Query Top:[[ChromeDriver: chrome on MAC (ad65216498a7bb12b1252caea63fedf1)] -> id: search_query_top]
+2019-10-12 12:49:17 INFO  HomePage:93 - Search By Skirt:[[ChromeDriver: chrome on MAC (ad65216498a7bb12b1252caea63fedf1)] -> id: search_query_top]
+2019-10-12 12:49:17 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:49:17 INFO  ScriptBase:95 - ###### Verify Category Dresses  : > Test End ########
+2019-10-12 12:49:17 INFO  ScriptBase:103 - ###### Verify Category Tshirt : > Test Start ########
+2019-10-12 12:49:17 INFO  HomePage:96 - Search Button Clicked;[[ChromeDriver: chrome on MAC (ad65216498a7bb12b1252caea63fedf1)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:49:17 INFO  ScriptBase:116 - ###### Verify Popular  : > Test Start ########
+2019-10-12 12:49:19 INFO  ScriptBase:129 - ###### Verify Best seller : > Test Start ########
+2019-10-12 12:49:19 INFO  HomePage:51 - Search Button Clicked:[[ChromeDriver: chrome on MAC (ad65216498a7bb12b1252caea63fedf1)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:49:20 INFO  ScriptBase:145 - ###### Verify Information : > Test Start ########
+2019-10-12 12:49:20 INFO  ScriptBase:158 - ###### Verify Information 2 : > Test Start ########
+2019-10-12 12:49:20 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (ad65216498a7bb12b1252caea63fedf1)] -> css selector: #header_logo > a > img]
+2019-10-12 12:49:20 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:20 INFO  ScriptBase:150 - ###### Verify Information  : > Test End ########
+2019-10-12 12:49:20 INFO  ScriptBase:171 - ###### Verify Information 3 : > Test Start ########
+2019-10-12 12:49:20 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:20 INFO  ScriptBase:163 - ###### Verify Information 2 : > Test End ########
+2019-10-12 12:49:20 INFO  ScriptBase:184 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:49:20 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:49:20 INFO  ScriptBase:121 - ###### Verify Popular   : > Test End ########
+2019-10-12 12:49:20 INFO  ScriptBase:197 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:49:20 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:20 INFO  ScriptBase:176 - ###### Verify Information 3 : > Test End ########
+2019-10-12 12:49:20 INFO  ScriptBase:210 - ###### Verify Information 6 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:21 INFO  ScriptBase:189 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:223 - ###### Verify Information 7 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:21 INFO  ScriptBase:202 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:236 - ###### Verify Information 8 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:21 INFO  ScriptBase:215 - ###### Verify Information 6 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:249 - ###### My Account Cascade 1 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:21 INFO  ScriptBase:228 - ###### Verify Information 7 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:264 - ###### Verify My Account Cascade 2 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:123 - Input Types
+2019-10-12 12:49:21 INFO  ScriptBase:241 - ###### Verify Information 8 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:277 - ###### Verify My Account Cascade 3 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:130 - Input My Types
+2019-10-12 12:49:21 INFO  ScriptBase:254 - ###### Verify My Account Cascade 1 : > Test End ########
+2019-10-12 12:49:21 INFO  ScriptBase:290 - ###### Verify My Account Cascade 4 : > Test Start ########
+2019-10-12 12:49:21 INFO  HomePage:130 - Input My Types
+2019-10-12 12:49:21 INFO  ScriptBase:269 - ###### Verify My Account Cascade 2 : > Test End ########
+2019-10-12 12:49:21 INFO  HomePage:130 - Input My Types
+2019-10-12 12:49:21 INFO  ScriptBase:282 - ###### Verify My Account Cascade 3 : > Test End ########
+2019-10-12 12:49:21 INFO  HomePage:130 - Input My Types
+2019-10-12 12:49:21 INFO  ScriptBase:295 - ###### Verify My Account Cascade 4 : > Test End ########
+2019-10-12 12:49:24 INFO  ScriptBase:71 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-10-12 12:49:24 INFO  ScriptBase:38 - ##########  Verify valid Signin :> Test Start ###########
+2019-10-12 12:49:24 INFO  ScriptBase:60 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-10-12 12:49:29 INFO  ScriptBase:49 - ##########  Verify Valid Login With LogOut :> Test Start ###########
+2019-10-12 12:49:29 INFO  ScriptBase:26 - ##########  Verify invalid Signin :> Test Start ###########
+2019-10-12 12:51:00 INFO  ScriptBase:25 - ###### Verify Top Search : > Test Start ########
+2019-10-12 12:51:00 INFO  HomePage:43 - Search Query Top:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> id: search_query_top]
+2019-10-12 12:51:01 INFO  HomePage:51 - Search Button Clicked:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:51:01 INFO  HomePage:55 - Quantity founded By search
+2019-10-12 12:51:02 INFO  HomePage:58 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> id: search_query_top]
+2019-10-12 12:51:02 INFO  ScriptBase:30 - ###### Verify Top Search  : > Test End ########
+2019-10-12 12:51:02 INFO  ScriptBase:64 - ###### Verify Skirt Search : > Test Start ########
+2019-10-12 12:51:02 INFO  HomePage:93 - Search By Skirt:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> id: search_query_top]
+2019-10-12 12:51:02 INFO  HomePage:96 - Search Button Clicked;[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> xpath: //*[@id='searchbox']/button]
+2019-10-12 12:51:02 INFO  HomePage:101 - Clear Search Query Top:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> id: search_query_top]
+2019-10-12 12:51:02 INFO  ScriptBase:69 - ###### Verify Skirt Search  : > Test End ########
+2019-10-12 12:51:02 INFO  ScriptBase:77 - ###### Verify Category Women : > Test Start ########
+2019-10-12 12:51:02 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:51:02 INFO  ScriptBase:82 - ###### Verify Category Women  : > Test End ########
+2019-10-12 12:51:02 INFO  ScriptBase:90 - ###### Verify Category Dresses : > Test Start ########
+2019-10-12 12:51:02 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:51:02 INFO  ScriptBase:95 - ###### Verify Category Dresses  : > Test End ########
+2019-10-12 12:51:02 INFO  ScriptBase:103 - ###### Verify Category Tshirt : > Test Start ########
+2019-10-12 12:51:02 INFO  HomePage:108 - Input CatagorySlect is Displayed
+2019-10-12 12:51:02 INFO  ScriptBase:108 - ###### Verify Category Tshirt  : > Test End ########
+2019-10-12 12:51:02 INFO  ScriptBase:116 - ###### Verify Popular  : > Test Start ########
+2019-10-12 12:51:04 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> css selector: #header_logo > a > img]
+2019-10-12 12:51:04 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:51:04 INFO  ScriptBase:121 - ###### Verify Popular   : > Test End ########
+2019-10-12 12:51:04 INFO  ScriptBase:129 - ###### Verify Best seller : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:113 - Homepage Navigation Button Clicked:[[ChromeDriver: chrome on MAC (7ceecc1306490621069a4eb5d8674c69)] -> css selector: #header_logo > a > img]
+2019-10-12 12:51:05 INFO  HomePage:116 - Input a catagory :
+2019-10-12 12:51:05 INFO  ScriptBase:134 - ###### Verify Best seller  : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:145 - ###### Verify Information : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:150 - ###### Verify Information  : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:158 - ###### Verify Information 2 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:163 - ###### Verify Information 2 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:171 - ###### Verify Information 3 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:176 - ###### Verify Information 3 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:184 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:189 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:197 - ###### Verify Information 5 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:202 - ###### Verify Information 5 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:210 - ###### Verify Information 6 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:215 - ###### Verify Information 6 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:223 - ###### Verify Information 7 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:228 - ###### Verify Information 7 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:236 - ###### Verify Information 8 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:123 - Input Types
+2019-10-12 12:51:05 INFO  ScriptBase:241 - ###### Verify Information 8 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:249 - ###### My Account Cascade 1 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:130 - Input My Types
+2019-10-12 12:51:05 INFO  ScriptBase:254 - ###### Verify My Account Cascade 1 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:264 - ###### Verify My Account Cascade 2 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:130 - Input My Types
+2019-10-12 12:51:05 INFO  ScriptBase:269 - ###### Verify My Account Cascade 2 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:277 - ###### Verify My Account Cascade 3 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:130 - Input My Types
+2019-10-12 12:51:05 INFO  ScriptBase:282 - ###### Verify My Account Cascade 3 : > Test End ########
+2019-10-12 12:51:05 INFO  ScriptBase:290 - ###### Verify My Account Cascade 4 : > Test Start ########
+2019-10-12 12:51:05 INFO  HomePage:130 - Input My Types
+2019-10-12 12:51:05 INFO  ScriptBase:295 - ###### Verify My Account Cascade 4 : > Test End ########
+2019-10-12 12:51:07 INFO  ScriptBase:60 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
