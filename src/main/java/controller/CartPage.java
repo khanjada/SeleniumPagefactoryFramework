@@ -79,11 +79,25 @@ public class CartPage extends ScriptBase {
     @FindBy(id = "group_1")
     WebElement sizeSlelect;
 
+    @FindBy(xpath = "//*[@id='add_to_cart']/button")
+    WebElement addChartMultiple;
+
+    @FindBy(xpath = "//*[@id='layer_cart']/div[1]/div[2]//span[contains(text(),'10')]")
+    WebElement totalQuantityDisplay;
+
+    @FindBy(xpath = "//*[@id='layer_cart']//span[contains(text(),'Proceed to checkout')]")
+    WebElement procedToCheckOut;
+
+    @FindBy(xpath = "//*[@id='cart_quantity_down_2_7_0_0']/span")
+    WebElement removeProduct;
+
+
+    @FindBy(linkText = "//*[@id='summary_products_quantity'][contains(text(),'1 Products')]")
+    WebElement finalQuantityDisplay;
 
     public CartPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-
 
     public void VieMyCart(String input, WebDriver driver) {
 
@@ -135,7 +149,7 @@ public class CartPage extends ScriptBase {
         addToCart.click();
         log.info("Add to Cart Tab is Clicked:" + addToCart.toString());
 
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         log.info("Thread Sleep 5000 millis Applying");
 
         continueShoppingButton.click();
@@ -167,6 +181,27 @@ public class CartPage extends ScriptBase {
 
     }
 
+    public void removeProductQuantity(WebDriver driver, String addProduct, int quantity) throws InterruptedException {
+
+        homePage.click();
+        log.info("Home button is Clicked:" + homePage.toString());
+
+        addCartProduct(driver, addProduct);
+        log.info("Product Added Successfully:");
+
+        productQuantity(cartQuantity, quantity);
+        log.info("Product Quanity Added");
+        addChartMultiple.click();
+        Thread.sleep(1000);
+        totalQuantityDisplay.isDisplayed();
+        procedToCheckOut.click();
+        productQuantity(removeProduct, quantity);
+
+        finalQuantityDisplay.isDisplayed();
+
+
+    }
+
     public void addCartProduct(WebDriver driver, String addProduct) {
 
         driver.findElement(By.xpath("//*[@id='homefeatured']/li//h5/a[@title='" + addProduct + "']")).click();
@@ -182,12 +217,17 @@ public class CartPage extends ScriptBase {
 
 
     }
-//    public void productQuantityDec(WebElement element, int quantityDec) {
+
+//    public void productQuantityRemove(WebElement element, int quantityRemove) {
 //
-//        for (int i = 0; i < quantityDec; i++) {
+//        for (int i = 0; i < quantityRemove; i++) {
 //            element.click();
 //
 //        }
+
+
+
+    //*[@id='cart_quantity_down_2_7_0_0']/span
 
 
     public void addCartMultipleQuantityWithPrintedDress(WebDriver driver, int quantity) {
@@ -214,30 +254,31 @@ public class CartPage extends ScriptBase {
 
         productQuantity(cartQuantity, quantity);
         log.info("Product Quanity Added");
-        //dropdown(sizeSlelect);
+
 
 
     }
 
-//    public void dropdown(WebElement element) {
-//        element = sizeSlelect;
-//        Select select = new Select(element);
-//        select.selectByVisibleText();
-//
-//    }
+/*   public void dropdown(WebElement element) {
+        element = sizeSlelect;
+        Select select = new Select(element);
+        select.selectByVisibleText();
+
+    }
 
 
-//    public void DecreaseCartQuantityWithPrintedDressTwo(WebDriver driver,int quantityDec){
-//
-//        homePage.click();
-//        printedDressTwo.click();
-//        productQuantityDec(cartQuantityDecrease,quantityDec);
-//
-//
-//    }
+    public void DecreaseCartQuantityWithPrintedDressTwo(WebDriver driver,int quantityDec){
+
+        homePage.click();
+        printedDressTwo.click();
+        productQuantityDec(cartQuantityDecrease,quantityDec);
 
 
-}
+*/
+    }
+
+
+
 
 
 

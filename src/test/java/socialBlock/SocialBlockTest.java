@@ -6,6 +6,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+
 public class SocialBlockTest extends ScriptBase {
 
 
@@ -13,8 +15,10 @@ public class SocialBlockTest extends ScriptBase {
 
 
     @BeforeTest
-    public void beforetest() {
-        init();
+    public void beforetest() throws MalformedURLException {
+
+//        init();
+        saucelab();
     }
 
 

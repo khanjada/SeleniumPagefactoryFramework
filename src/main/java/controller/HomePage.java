@@ -38,12 +38,18 @@ public class HomePage extends ScriptBase {
 
 
     public void TopSearch(String input, WebDriver driver, String quantity) {
+try {
+    searchQueryTop.sendKeys(input);
+    log.info("Search Query Top:" + searchQueryTop.toString());
+}catch (Exception e){
+    e.printStackTrace();
+    log.info("Search Query Top nopt found");
+}
 
-        searchQueryTop.sendKeys(input);
-        log.info("Search Query Top:" + searchQueryTop.toString());
-
-        searchButton.click();
-        log.info("Search Button Clicked:" + searchButton.toString());
+if(searchButton.isDisplayed()) {
+    searchButton.click();
+    log.info("Search Button Clicked:" + searchButton.toString());
+}
 
         driver.findElement(By.xpath("//*[@id='center_column']/h1/span[contains(text(),'" + quantity + " results have been found.')]")).isDisplayed();
         log.info("Quantity founded By search");

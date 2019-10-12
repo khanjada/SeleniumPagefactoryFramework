@@ -6,14 +6,19 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+
 public class CartPageTest extends ScriptBase {
 
     CartPage cartPage;
 
 
     @BeforeTest
-    public void beforetest() {
-        init();
+    public void beforetest() throws MalformedURLException {
+
+//        init();
+
+        saucelab();
     }
 
 
@@ -132,6 +137,19 @@ public class CartPageTest extends ScriptBase {
         log.info("######## Verify Cart Multiple Quantity With Printed Dress 1st  >Test End ###########");
 
     }
+
+    @Test
+    public void VerifyRemoveProduct() {
+        log.info("######## VerifyRemoveProduct  >Test Start ###########");
+
+        cartPage = new CartPage(driver);
+       // cartPage.removeProductQuantity(driver, "Blouse", 9);
+
+        log.info("######## VerifyRemoveProduct >Test End ###########");
+
+
+    }
+
 
 //    @Test
 //    public void VerifyDecreasetMultiplePrintedDressTwo()  {
