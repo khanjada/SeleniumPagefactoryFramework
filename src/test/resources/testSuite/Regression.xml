@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" thread-count="3">
-    <test verbose="2" preserve-order="true" name="/Users/hurayra/Documents/Workspace/SeleniumPagefactoryFramework">
+<suite name="All Test Suite" parallel="tests" thread-count="4">
 
-        <parameter name="browser" value="chrome"></parameter>
+    <test name="HomePageTest">
+        <parameter name="browser" value="opera"></parameter>
         <classes>
             <class name="homePage.HomePageTest">
                 <methods>
@@ -30,13 +30,54 @@
                     <include name="VerifyMyAccountCascadeFour"/>
                 </methods>
             </class>
+        </classes>
+    </test>
+
+    <test name="LoginTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
             <class name="login.LoginTest">
                 <methods>
-                    <include name="invalidLoginVerify"/>
-                    <include name="validLoginVerify"/>
-                    <include name="validLoginWithLogOutVerify"/>
-                    <include name="invalidCreateAccountVerify"/>
-                    <include name="invalidSignUpAccountVerify"/>
+                    <include name="VerifyinvalidSignin"/>
+                    <include name="VerifyValidSignin"/>
+                    <include name="VerifyValidSigninWithLogOut"/>
+                    <include name="VerifyInvalidCreateAccount"/>
+                    <include name="VerifyInvalidSignUpAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SocialBlockTest">
+        <parameter name="browser" value="opera"></parameter>
+        <classes>
+            <class name="socialBlock.SocialBlockTest">
+                <methods>
+                    <include name="verifyGooglePlus"/>
+                    <include name="verifyFaceBook"/>
+                    <include name="verifyTwitter"/>
+                    <include name="verifyYoutube"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="CartPageTest">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="cartPage.CartPageTest">
+                <methods>
+                    <include name="VerifyMyCart"/>
+                    <include name="VerifySummary"/>
+                    <include name="VerifyAddres"/>
+                    <include name="VerifyShipping"/>
+                    <include name="Verifypayment"/>
+                    <include name="VerifyAddCart"/>
+                    <include name="VerifyAddCartMultipleBlouseProduct"/>
+                    <include name="VerifyAddCartMultipleFadedSleeveProduct"/>
+                    <include name="VerifyAddCartMultiplePrintedDressTWo"/>
+                    <include name="verifCartMultipleQuantityWithPrintedDressOne"/>
+                    <include name="VerifyRemoveProduct"/>
                 </methods>
             </class>
         </classes>

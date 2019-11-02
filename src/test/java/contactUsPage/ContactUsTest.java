@@ -16,7 +16,7 @@ public class ContactUsTest extends ScriptBase {
     @BeforeTest
     public void beforetest() throws MalformedURLException {
 //        init();
-        saucelab();
+        //saucelab();
     }
 
     @Test

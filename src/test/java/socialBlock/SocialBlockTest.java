@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class SocialBlockTest extends ScriptBase {
+public class  SocialBlockTest extends ScriptBase {
 
 
     SocialBlock socialBlock;
@@ -18,7 +18,7 @@ public class SocialBlockTest extends ScriptBase {
     public void beforetest() throws MalformedURLException {
 
 //        init();
-        saucelab();
+  //      saucelab();
     }
 
 

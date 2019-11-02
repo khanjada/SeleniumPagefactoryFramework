@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -25,9 +26,9 @@ public class ScriptBase {
 
 
 
-    public WebDriver driver;
+    public static WebDriver driver;
 
-    public void init() {
+   /* public void init() {
         String Log4jConfigPath = "log4j.properties";
         PropertyConfigurator.configure(Log4jConfigPath);
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
@@ -45,7 +46,8 @@ public class ScriptBase {
         driver.get("http://automationpractice.com/index.php");
 
 
-    }
+    }*/
+
     @Parameters("browser")
     @BeforeClass
     public void beforeTest(String browser) throws MalformedURLException{
@@ -55,18 +57,18 @@ public class ScriptBase {
             PropertyConfigurator.configure(Log4jConfigPath);
             System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
             driver = new ChromeDriver();
+        }else if(browser.equalsIgnoreCase("firefox")){
+
+            String Log4jConfigPath = "log4j.properties";
+            PropertyConfigurator.configure(Log4jConfigPath);
+            System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/drivers/geckodriver");
+            driver = new FirefoxDriver();
         }else if(browser.equalsIgnoreCase("sauceLabChrome")){
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability("browserName", "chrome");
             caps.setCapability("platform", "macOS 10.13");
             caps.setCapability("version", "latest");
             driver=new RemoteWebDriver(new URL(URL),caps);
-        }else if(browser.equalsIgnoreCase("fireFox")){
-
-            String Log4jConfigPath = "log4j.properties";
-            PropertyConfigurator.configure(Log4jConfigPath);
-            System.setProperty("webdriver.firefox.driver", "./drivers/geckodriver");
-            driver = new FirefoxDriver();
         }
         else if(browser.equalsIgnoreCase("opera")){
 
@@ -74,6 +76,13 @@ public class ScriptBase {
             PropertyConfigurator.configure(Log4jConfigPath);
             System.setProperty("webdriver.opera.driver", "./drivers/operadriver");
             driver = new OperaDriver();
+        }
+        else if(browser.equalsIgnoreCase("safari")){
+
+            String Log4jConfigPath = "log4j.properties";
+            PropertyConfigurator.configure(Log4jConfigPath);
+            System.setProperty("webdriver.safari.noinstall","true");
+            driver = new SafariDriver();
         }
         driver.get("http://automationpractice.com/index.php");
     }
