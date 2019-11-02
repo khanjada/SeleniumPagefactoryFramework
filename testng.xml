@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="reporting.Listener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="SeleniumPagefactoryFramework">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="cartPage.CartPageTest">
+                <methods>
+                    <include name="VerifyMyCart"/>
+                    <include name="VerifySummary"/>
+                    <include name="VerifyAddres"/>
+                    <include name="VerifyShipping"/>
+                    <include name="Verifypayment"/>
+                    <include name="VerifyAddCart"/>
+                    <include name="VerifyAddCartMultipleBlouseProduct"/>
+                    <include name="VerifyAddCartMultipleFadedSleeveProduct"/>
+                    <include name="VerifyAddCartMultiplePrintedDressTWo"/>
+                    <include name="verifCartMultipleQuantityWithPrintedDressOne"/>
+                    <include name="VerifyRemoveProduct"/>
+                </methods>
+            </class>
+            <class name="contactUsPage.ContactUsTest">
+                <methods>
+                    <include name="VerifyContuctUs"/>
+                    <include name="VerifySendButtonPic"/>
+                    <include name="VerifyEmailAdressDisplay"/>
+                    <include name="VerifyEmailAdressInput"/>
+                    <include name="VerifyOrderRefrenceAndInput"/>
+                    <include name="VerifyAttachFileTextDisplay"/>
+                    <include name="VerifyMessageTextDispAndInput"/>
+                    <include name="VerifySendButton"/>
+                    <include name="VerifyInvalidContactInfo"/>
+                    <include name="VerifySummary"/>
+                    <include name="VerifySignin"/>
+                    <include name="VerifyAddres"/>
+                    <include name="VerifyShipping"/>
+                    <include name="Verifypayment"/>
+                </methods>
+            </class>
+            <class name="homePage.HomePageTest">
+                <methods>
+                    <include name="VerifyTopSearch"/>
+                    <include name="VerifyBYShoeSearch"/>
+                    <include name="VerifyByBlouseSearch"/>
+                    <include name="VerifySkirtSearch"/>
+                    <include name="VerifyCategoryWomen"/>
+                    <include name="VerifyCategoryDresses"/>
+                    <include name="VerifyCategoryTshirt"/>
+                    <include name="VerifyPopular1"/>
+                    <include name="VerifyBestseller"/>
+                    <include name="VerifyInformation"/>
+                    <include name="VerifyInformationTwo"/>
+                    <include name="VerifyInformationThree"/>
+                    <include name="VerifyInformationFour"/>
+                    <include name="VerifyInformationFive"/>
+                    <include name="VerifyInformationSix"/>
+                    <include name="VerifyInformationSeven"/>
+                    <include name="VerifyInformationEight"/>
+                    <include name="VerifyMyAccountCascade"/>
+                    <include name="VerifyMyAccountCascadeTwo"/>
+                    <include name="VerifyMyAccountCascadeThree"/>
+                    <include name="VerifyMyAccountCascadeFour"/>
+                    <include name="verifyContactUs"/>
+                </methods>
+            </class>
+            <class name="login.LoginTest">
+                <methods>
+                    <include name="VerifyinvalidSignin"/>
+                    <include name="VerifyValidSignin"/>
+                    <include name="VerifyValidSigninWithLogOut"/>
+                    <include name="VerifyInvalidCreateAccount"/>
+                    <include name="VerifyInvalidSignUpAccount"/>
+                </methods>
+            </class>
+            <class name="socialBlock.SocialBlockTest">
+                <methods>
+                    <include name="verifyGooglePlus"/>
+                    <include name="verifyFaceBook"/>
+                    <include name="verifyTwitter"/>
+                    <include name="verifyYoutube"/>
+                </methods>
+            </class>
+            <class name="womenCatalog.WomenCatalogTest">
+                <methods>
+                    <include name="verifyWomenDress"/>
+                    <include name="verifyCatalogTabDress"/>
+                    <include name="verifyWomentopTshirt"/>
+                    <include name="verifyWomentopBlouses"/>
+                    <include name="verifyWomenCasualDress"/>
+                    <include name="verifyWomenEveningDress"/>
+                    <include name="verifyWomenSummerDress"/>
+                    <include name="verifyWomenFilerProduct"/>
+                    <include name="verifyWomenFilerProductBlouse"/>
+                    <include name="verifyWomenFilerProductSecond"/>
+                    <include name="verifyWomenFilerProducDress"/>
+                    <include name="verifyWomenFilerProducDressEvening"/>
+                    <include name="verifyWomenFilerProducDressSummer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -18,7 +18,7 @@ public class CartPageTest extends ScriptBase {
 
 //        init();
 
-        saucelab();
+        //saucelab();
     }
 
 

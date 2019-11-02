@@ -15,7 +15,7 @@ public class LoginTest extends ScriptBase {
     public void beforetest() throws MalformedURLException {
 
 //        init();
-        saucelab();
+       // saucelab();
 
     }
 
@@ -78,8 +78,8 @@ public class LoginTest extends ScriptBase {
 
     @AfterTest
     public void closebrowser() {
-       driver.close();
-       driver.quit();
+       //driver.close();
+       //driver.quit();
     }
 
 

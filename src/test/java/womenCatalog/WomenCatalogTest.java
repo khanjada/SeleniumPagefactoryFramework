@@ -18,7 +18,7 @@ public class WomenCatalogTest extends ScriptBase {
 
         //init();
 
-        saucelab();
+        //saucelab();
     }
 
 

@@ -14,7 +14,7 @@ public class HomePageTest extends ScriptBase {
     @BeforeTest
     public void beforetest() throws MalformedURLException {
 //        init();
-        saucelab();
+      //  saucelab();
 
     }
 
@@ -311,7 +311,7 @@ public class HomePageTest extends ScriptBase {
 
     @AfterTest
     public void closebrowser() {
-        driver.close();
-        driver.quit();
+        //driver.close();
+        //driver.quit();
     }
 }
