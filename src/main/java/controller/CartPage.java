@@ -233,7 +233,7 @@ public class CartPage extends ScriptBase {
     public void addCartMultipleQuantityWithPrintedDress(WebDriver driver, int quantity) {
 
         homePage.click();
-        log.info("Home button is Clicked:" + homePage.toString());
+        log.info("Home button is Clicked:" + homePage.getText());
 
         printedDressOne.click();
         log.info("Printed Dress 1 is clicked:" + printedDressOne.toString());

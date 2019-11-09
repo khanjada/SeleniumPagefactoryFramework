@@ -2540,3 +2540,123 @@
 2019-11-02 10:59:10 INFO  ScriptBase:62 - ####### Verify Youtube ########:  > Test Start 
 2019-11-02 10:59:10 INFO  SocialBlock:23 - Putting Media Name And clicked
 2019-11-02 10:59:15 INFO  ScriptBase:67 - ####### Verify Youtube ########:  > Test End 
+2019-11-03 10:34:40 INFO  ScriptBase:27 - ########  Verify Summary  >Test Start ###########
+2019-11-03 10:34:46 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:34:46 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:34:46 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:34:51 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:34:51 INFO  CartPage:130 - 
+2019-11-03 10:34:51 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:34:51 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:34:51 INFO  ScriptBase:32 - ########  Verify Summary  >Test End ###########
+2019-11-03 10:34:52 INFO  ScriptBase:39 - ########  Verify Summary  >Test Start ###########
+2019-11-03 10:34:53 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:34:53 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:34:53 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (21f00f8f364f59f1574f6687a84469a2)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:35:51 INFO  ScriptBase:27 - ########  Verify Summary  >Test Start ###########
+2019-11-03 10:35:52 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:52 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:35:52 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:35:53 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:53 INFO  CartPage:130 - 
+2019-11-03 10:35:53 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:35:53 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:35:53 INFO  ScriptBase:32 - ########  Verify Summary  >Test End ###########
+2019-11-03 10:35:53 INFO  ScriptBase:39 - ########  Verify Summary  >Test Start ###########
+2019-11-03 10:35:54 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:54 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:35:54 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:35:55 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:55 INFO  CartPage:130 - 
+2019-11-03 10:35:55 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:35:55 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:35:55 INFO  ScriptBase:44 - ########  Verify Summary  >Test Start ###########
+2019-11-03 10:35:55 INFO  ScriptBase:51 - ########  Verify Address  >Test Start ###########
+2019-11-03 10:35:56 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:56 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:35:56 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:35:56 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:56 INFO  CartPage:130 - 
+2019-11-03 10:35:56 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:35:56 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:35:56 INFO  ScriptBase:56 - ########  Verify Address  >Test End ###########
+2019-11-03 10:35:57 INFO  ScriptBase:63 - ########  VerifyShopping  >Test Start ###########
+2019-11-03 10:35:57 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:57 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:35:58 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:35:58 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:58 INFO  CartPage:130 - 
+2019-11-03 10:35:58 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:35:58 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:35:58 INFO  ScriptBase:68 - ########  VerifyShopping  >Test End ###########
+2019-11-03 10:35:59 INFO  ScriptBase:75 - ########  Verify Payment  >Test Start ###########
+2019-11-03 10:35:59 INFO  CartPage:106 - My Cart is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:35:59 INFO  CartPage:109 - Shopping Cart Logo Text is Displayed:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //span[@class='navigation_page'] ]
+2019-11-03 10:35:59 INFO  CartPage:112 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@id='cart_title']]
+2019-11-03 10:36:00 INFO  CartPage:127 - My Cart Tab Is CliCked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //a[@title='View my shopping cart']]
+2019-11-03 10:36:00 INFO  CartPage:130 - 
+2019-11-03 10:36:00 INFO  CartPage:115 - Cart summary  Box Successfully Open to Input some value
+2019-11-03 10:36:00 INFO  CartPage:118 - Your shopping cart is empty.:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='alert alert-warning']]
+2019-11-03 10:36:00 INFO  ScriptBase:80 - ########  Verify Payment  >Test End ###########
+2019-11-03 10:36:00 INFO  ScriptBase:87 - ########  VerifyAddCart  Test Start ###########
+2019-11-03 10:36:01 INFO  ScriptBase:99 - ######## Verify AddCart Multiple Blouse Product  >Test Start ###########
+2019-11-03 10:36:03 INFO  CartPage:170 - Home button is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='logo img-responsive']]
+2019-11-03 10:36:04 INFO  CartPage:173 - Product Added Successfully:
+2019-11-03 10:36:04 INFO  CartPage:176 - Product Quanity Added
+2019-11-03 10:36:05 INFO  CartPage:179 - Home button is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='logo img-responsive']]
+2019-11-03 10:36:05 INFO  ScriptBase:104 - ######## Verify AddCart Multiple Blouse Product  >Test End ###########
+2019-11-03 10:36:07 INFO  ScriptBase:111 - ######## Verify AddCart Multiple FadedSleeveProduct  >Test Start ###########
+2019-11-03 10:36:13 INFO  CartPage:170 - Home button is Clicked:[[ChromeDriver: chrome on MAC (2f16a5a7cd0510a62d83d4f7843100a0)] -> xpath: //*[@class='logo img-responsive']]
+2019-11-03 10:36:19 INFO  CartPage:173 - Product Added Successfully:
+2019-11-09 12:24:18 INFO  ScriptBase:24 - ##########  Verify invalid Signin :> Test Start ###########
+2019-11-09 12:24:18 INFO  ScriptBase:24 - ##########  Verify invalid Signin :> Test Start ###########
+2019-11-09 12:24:18 INFO  ScriptBase:39 - ##########  Verify valid Signin :> Test Start ###########
+2019-11-09 12:24:19 INFO  ScriptBase:39 - ##########  Verify valid Signin :> Test Start ###########
+2019-11-09 12:24:19 INFO  ScriptBase:52 - ##########  Verify Valid Login With LogOut :> Test Start ###########
+2019-11-09 12:24:19 INFO  ScriptBase:52 - ##########  Verify Valid Login With LogOut :> Test Start ###########
+2019-11-09 12:24:20 INFO  ScriptBase:65 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-11-09 12:24:20 INFO  ScriptBase:65 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-11-09 12:24:21 INFO  ScriptBase:78 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-11-09 12:24:21 INFO  ScriptBase:78 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-11-09 12:27:07 INFO  ScriptBase:20 - ##########  Verify invalid Signin :> Test Start ###########
+2019-11-09 12:27:09 INFO  LoginPage:81 - Signin Button Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //a[@class='login']]
+2019-11-09 12:27:09 INFO  LoginPage:84 - Email SendKey Is Given::[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='email']]
+2019-11-09 12:27:09 INFO  LoginPage:87 - Password SendKey Is Given:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: passwd]
+2019-11-09 12:27:09 INFO  LoginPage:90 - submit Button Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='SubmitLogin']]
+2019-11-09 12:27:09 INFO  LoginPage:94 - There are 6 errors:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> css selector: #center_column > div.alert.alert-danger > ol > li]
+2019-11-09 12:27:09 INFO  ScriptBase:25 - ##########  Verify invalid Signin :> Test End ###########
+2019-11-09 12:27:09 INFO  ScriptBase:35 - ##########  Verify valid Signin :> Test Start ###########
+2019-11-09 12:27:10 INFO  LoginPage:102 - Signin Button clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //a[@class='login']]
+2019-11-09 12:27:11 INFO  LoginPage:105 - Email SendKey Is Given::[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='email']]
+2019-11-09 12:27:11 INFO  LoginPage:108 - Password SendKey Is Given:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: passwd]
+2019-11-09 12:27:12 INFO  LoginPage:111 - submit Button Clicked:Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2019-11-09 12:27:12 INFO  LoginPage:114 - SignIn Successful Showedup:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> link text: Zaman Dewan]
+2019-11-09 12:27:13 INFO  LoginPage:117 - Sign out Button clickedProxy element for: DefaultElementLocator 'By.xpath: //*[@id='header']//a[@title='Log me out']'
+2019-11-09 12:27:13 INFO  ScriptBase:40 - ##########  Verify valid Signin :> Test End ###########
+2019-11-09 12:27:13 INFO  ScriptBase:48 - ##########  Verify Valid Login With LogOut :> Test Start ###########
+2019-11-09 12:27:14 INFO  LoginPage:123 - Signin Button clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //a[@class='login']]
+2019-11-09 12:27:14 INFO  LoginPage:126 - Email Box is Filledup with email:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='email']]
+2019-11-09 12:27:15 INFO  LoginPage:130 - Valid pass is given By sendkey:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='passwd']]
+2019-11-09 12:27:15 INFO  LoginPage:134 - submit Button Clicked:Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2019-11-09 12:27:17 INFO  LoginPage:139 - Sign out Button clickedProxy element for: DefaultElementLocator 'By.xpath: //*[@id='header']//a[@title='Log me out']'
+2019-11-09 12:27:17 INFO  ScriptBase:53 - ##########  Verify Valid Login With LogOut :> Test End ###########
+2019-11-09 12:27:17 INFO  ScriptBase:61 - ##########  Verify valid Verify Invalid CreateAccount :> Test Start ###########
+2019-11-09 12:27:18 INFO  LoginPage:145 - Signin Button clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //a[@class='login']]
+2019-11-09 12:27:18 INFO  LoginPage:148 - Invalid Email Address Given[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: email_create]
+2019-11-09 12:27:18 INFO  LoginPage:151 - Submit Creat account Button is Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: email_create]
+2019-11-09 12:27:18 INFO  LoginPage:154 - InValid Email Error Message is Displayed:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='create_account_error']]
+2019-11-09 12:27:18 INFO  ScriptBase:66 - ##########  Verify Invalid CreateAccount :> Test End ###########
+2019-11-09 12:27:18 INFO  ScriptBase:74 - ##########  Verify Invalid SignUp Account :> Test Start ###########
+2019-11-09 12:27:20 INFO  LoginPage:163 - Signin Button clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //a[@class='login']]
+2019-11-09 12:27:20 INFO  LoginPage:166 - Invalid Email Address Given[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: email_create]
+2019-11-09 12:27:20 INFO  LoginPage:169 - Submit Creat account Button is Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: email_create]
+2019-11-09 12:27:20 INFO  LoginPage:172 - driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
+2019-11-09 12:27:21 INFO  LoginPage:175 - Title Mr Button Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> css selector: #id_gender1]
+2019-11-09 12:27:22 INFO  LoginPage:178 - First Name SendKey:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: customer_firstname]
+2019-11-09 12:27:22 INFO  LoginPage:181 - Last Name SendKey:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: customer_lastname]
+2019-11-09 12:27:22 INFO  LoginPage:184 - Signup Email - Sendkey:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='email']]
+2019-11-09 12:27:22 INFO  LoginPage:187 - Signup Password - Sendkey:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> id: passwd]
+2019-11-09 12:27:23 INFO  LoginPage:190 - Submit  Register Button is Clicked:[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> css selector: #submitAccount > span]
+2019-11-09 12:27:23 INFO  LoginPage:193 - There are 6 errors[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='center_column']/div]
+2019-11-09 12:27:24 INFO  LoginPage:197 - Back to Home Page[[ChromeDriver: chrome on MAC (b841f856ec4b58b816f5a5ebb1bd3135)] -> xpath: //*[@id='header_logo']//img[@class='logo img-responsive']]
+2019-11-09 12:27:24 INFO  ScriptBase:79 - ##########  Verify Invalid SignUp Account :> Test End ###########
