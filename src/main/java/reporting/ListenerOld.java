@@ -13,7 +13,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class Listener extends ScriptBase implements ITestListener {
+public class ListenerOld extends ScriptBase implements ITestListener {
 
 
     @Override
@@ -34,7 +34,8 @@ public class Listener extends ScriptBase implements ITestListener {
                         File(System.getProperty("user.dir")).getAbsolutePath()+"/src/main/java/successScreenShots";
                 File destFile=new
                         File((String)reportDirectory+"/"+methodName+"_"+formater.format(calendar.getTime())+".png");
-                Utils.copyFile(srcFile,destFile);
+
+                //Utils.(srcFile,destFile);
                 Reporter.log("<a href='"+destFile.getAbsolutePath()+"'><image src='"+destFile.getAbsolutePath()+"'height='100'/></a>");
 
 
@@ -58,7 +59,7 @@ public class Listener extends ScriptBase implements ITestListener {
                         File(System.getProperty("user.dir")).getAbsolutePath()+"/src/main/java/FailureScreenShots";
                 File destFile=new
                         File((String)reportDirectory+"/"+methodName+"_"+formater.format(calendar.getTime())+".png");
-                Utils.copyFile(srcFile,destFile);
+                //Utils.copyFile(srcFile,destFile);
                 Reporter.log("<a href='"+destFile.getAbsolutePath()+"'><image src='"+destFile.getAbsolutePath()+"'height='100'/></a>");
 
 
